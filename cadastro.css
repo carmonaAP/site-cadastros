@@ -1,0 +1,90 @@
+body {
+    background-image: url('https://s.aolcdn.com/dims-global/dims3/GLOB/legacy_thumbnail/1049x590/quality/80/https://s.aolcdn.com/os/ab/_cms/2019/11/06030705/b-is-for-build-v8-tt-huracan-sema-11.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 0; /* Remove margens padrão */
+    display: flex;
+    flex-direction: column; /* Alinha o nav e o conteúdo verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    min-height: 100vh; /* Faz o body ocupar a altura total da tela */
+}
+
+nav {
+    background-color: #000000; 
+    padding: 10px 0;
+    width: 100%; /* Faz o nav ocupar a largura total */
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+}
+
+nav ul li {
+    margin: 0 15px; 
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 18px; 
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6347; 
+}
+
+.container {
+    background: rgb(0, 0, 0);
+    padding: 30px;
+    border-radius: 35px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin-top: 20px; /* Espaçamento entre o nav e o formulário */
+}
+
+h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    color: #ffffff;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #0800ff;
+    border-radius: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 6px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffffff;
+}
